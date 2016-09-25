@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33E1F8791D8EEAC10050900F /* ViewController2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E1F8781D8EEAC10050900F /* ViewController2ViewController.m */; };
+		33E7CEC41D85B76800ABEDC5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E7CEC31D85B76800ABEDC5 /* main.m */; };
+		33E7CEC71D85B76800ABEDC5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E7CEC61D85B76800ABEDC5 /* AppDelegate.m */; };
+		33E7CECA1D85B76800ABEDC5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E7CEC91D85B76800ABEDC5 /* ViewController.m */; };
+		33E7CECD1D85B76800ABEDC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33E7CECB1D85B76800ABEDC5 /* Main.storyboard */; };
+		33E7CED01D85B76800ABEDC5 /* Wal_Smart.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 33E7CECE1D85B76800ABEDC5 /* Wal_Smart.xcdatamodeld */; };
+		33E7CED21D85B76800ABEDC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33E7CED11D85B76800ABEDC5 /* Assets.xcassets */; };
+		33E7CED51D85B76800ABEDC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33E7CED31D85B76800ABEDC5 /* LaunchScreen.storyboard */; };
+		33E7CEE01D85B76800ABEDC5 /* Wal_SmartTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E7CEDF1D85B76800ABEDC5 /* Wal_SmartTests.m */; };
+		33E7CEEB1D85B76800ABEDC5 /* Wal_SmartUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E7CEEA1D85B76800ABEDC5 /* Wal_SmartUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		33E7CEDC1D85B76800ABEDC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33E7CEB71D85B76800ABEDC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33E7CEBE1D85B76800ABEDC5;
+			remoteInfo = "Wal-Smart";
+		};
+		33E7CEE71D85B76800ABEDC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33E7CEB71D85B76800ABEDC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33E7CEBE1D85B76800ABEDC5;
+			remoteInfo = "Wal-Smart";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		33E1F8771D8EEAC10050900F /* ViewController2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2ViewController.h; sourceTree = "<group>"; };
+		33E1F8781D8EEAC10050900F /* ViewController2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2ViewController.m; sourceTree = "<group>"; };
+		33E7CEBF1D85B76800ABEDC5 /* Wal-Smart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wal-Smart.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33E7CEC31D85B76800ABEDC5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		33E7CEC51D85B76800ABEDC5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		33E7CEC61D85B76800ABEDC5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		33E7CEC81D85B76800ABEDC5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		33E7CEC91D85B76800ABEDC5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		33E7CECC1D85B76800ABEDC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		33E7CECF1D85B76800ABEDC5 /* Wal_Smart.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Wal_Smart.xcdatamodel; sourceTree = "<group>"; };
+		33E7CED11D85B76800ABEDC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		33E7CED41D85B76800ABEDC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		33E7CED61D85B76800ABEDC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33E7CEDB1D85B76800ABEDC5 /* Wal-SmartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wal-SmartTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33E7CEDF1D85B76800ABEDC5 /* Wal_SmartTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Wal_SmartTests.m; sourceTree = "<group>"; };
+		33E7CEE11D85B76800ABEDC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33E7CEE61D85B76800ABEDC5 /* Wal-SmartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wal-SmartUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33E7CEEA1D85B76800ABEDC5 /* Wal_SmartUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Wal_SmartUITests.m; sourceTree = "<group>"; };
+		33E7CEEC1D85B76800ABEDC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33E7CEBC1D85B76800ABEDC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33E7CED81D85B76800ABEDC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33E7CEE31D85B76800ABEDC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33E7CEB61D85B76800ABEDC5 = {
+			isa = PBXGroup;
+			children = (
+				33E1F8771D8EEAC10050900F /* ViewController2ViewController.h */,
+				33E1F8781D8EEAC10050900F /* ViewController2ViewController.m */,
+				33E7CEC11D85B76800ABEDC5 /* Wal-Smart */,
+				33E7CEDE1D85B76800ABEDC5 /* Wal-SmartTests */,
+				33E7CEE91D85B76800ABEDC5 /* Wal-SmartUITests */,
+				33E7CEC01D85B76800ABEDC5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		33E7CEC01D85B76800ABEDC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33E7CEBF1D85B76800ABEDC5 /* Wal-Smart.app */,
+				33E7CEDB1D85B76800ABEDC5 /* Wal-SmartTests.xctest */,
+				33E7CEE61D85B76800ABEDC5 /* Wal-SmartUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33E7CEC11D85B76800ABEDC5 /* Wal-Smart */ = {
+			isa = PBXGroup;
+			children = (
+				33E7CEC51D85B76800ABEDC5 /* AppDelegate.h */,
+				33E7CEC61D85B76800ABEDC5 /* AppDelegate.m */,
+				33E7CEC81D85B76800ABEDC5 /* ViewController.h */,
+				33E7CEC91D85B76800ABEDC5 /* ViewController.m */,
+				33E7CECB1D85B76800ABEDC5 /* Main.storyboard */,
+				33E7CED11D85B76800ABEDC5 /* Assets.xcassets */,
+				33E7CED31D85B76800ABEDC5 /* LaunchScreen.storyboard */,
+				33E7CED61D85B76800ABEDC5 /* Info.plist */,
+				33E7CECE1D85B76800ABEDC5 /* Wal_Smart.xcdatamodeld */,
+				33E7CEC21D85B76800ABEDC5 /* Supporting Files */,
+			);
+			path = "Wal-Smart";
+			sourceTree = "<group>";
+		};
+		33E7CEC21D85B76800ABEDC5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				33E7CEC31D85B76800ABEDC5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		33E7CEDE1D85B76800ABEDC5 /* Wal-SmartTests */ = {
+			isa = PBXGroup;
+			children = (
+				33E7CEDF1D85B76800ABEDC5 /* Wal_SmartTests.m */,
+				33E7CEE11D85B76800ABEDC5 /* Info.plist */,
+			);
+			path = "Wal-SmartTests";
+			sourceTree = "<group>";
+		};
+		33E7CEE91D85B76800ABEDC5 /* Wal-SmartUITests */ = {
+			isa = PBXGroup;
+			children = (
+				33E7CEEA1D85B76800ABEDC5 /* Wal_SmartUITests.m */,
+				33E7CEEC1D85B76800ABEDC5 /* Info.plist */,
+			);
+			path = "Wal-SmartUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33E7CEBE1D85B76800ABEDC5 /* Wal-Smart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33E7CEEF1D85B76800ABEDC5 /* Build configuration list for PBXNativeTarget "Wal-Smart" */;
+			buildPhases = (
+				33E7CEBB1D85B76800ABEDC5 /* Sources */,
+				33E7CEBC1D85B76800ABEDC5 /* Frameworks */,
+				33E7CEBD1D85B76800ABEDC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Wal-Smart";
+			productName = "Wal-Smart";
+			productReference = 33E7CEBF1D85B76800ABEDC5 /* Wal-Smart.app */;
+			productType = "com.apple.product-type.application";
+		};
+		33E7CEDA1D85B76800ABEDC5 /* Wal-SmartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33E7CEF21D85B76800ABEDC5 /* Build configuration list for PBXNativeTarget "Wal-SmartTests" */;
+			buildPhases = (
+				33E7CED71D85B76800ABEDC5 /* Sources */,
+				33E7CED81D85B76800ABEDC5 /* Frameworks */,
+				33E7CED91D85B76800ABEDC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33E7CEDD1D85B76800ABEDC5 /* PBXTargetDependency */,
+			);
+			name = "Wal-SmartTests";
+			productName = "Wal-SmartTests";
+			productReference = 33E7CEDB1D85B76800ABEDC5 /* Wal-SmartTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		33E7CEE51D85B76800ABEDC5 /* Wal-SmartUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33E7CEF51D85B76800ABEDC5 /* Build configuration list for PBXNativeTarget "Wal-SmartUITests" */;
+			buildPhases = (
+				33E7CEE21D85B76800ABEDC5 /* Sources */,
+				33E7CEE31D85B76800ABEDC5 /* Frameworks */,
+				33E7CEE41D85B76800ABEDC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33E7CEE81D85B76800ABEDC5 /* PBXTargetDependency */,
+			);
+			name = "Wal-SmartUITests";
+			productName = "Wal-SmartUITests";
+			productReference = 33E7CEE61D85B76800ABEDC5 /* Wal-SmartUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33E7CEB71D85B76800ABEDC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Gjergji Tabaku";
+				TargetAttributes = {
+					33E7CEBE1D85B76800ABEDC5 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					33E7CEDA1D85B76800ABEDC5 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 33E7CEBE1D85B76800ABEDC5;
+					};
+					33E7CEE51D85B76800ABEDC5 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 33E7CEBE1D85B76800ABEDC5;
+					};
+				};
+			};
+			buildConfigurationList = 33E7CEBA1D85B76800ABEDC5 /* Build configuration list for PBXProject "Wal-Smart" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 33E7CEB61D85B76800ABEDC5;
+			productRefGroup = 33E7CEC01D85B76800ABEDC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33E7CEBE1D85B76800ABEDC5 /* Wal-Smart */,
+				33E7CEDA1D85B76800ABEDC5 /* Wal-SmartTests */,
+				33E7CEE51D85B76800ABEDC5 /* Wal-SmartUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33E7CEBD1D85B76800ABEDC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33E7CED51D85B76800ABEDC5 /* LaunchScreen.storyboard in Resources */,
+				33E7CED21D85B76800ABEDC5 /* Assets.xcassets in Resources */,
+				33E7CECD1D85B76800ABEDC5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33E7CED91D85B76800ABEDC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33E7CEE41D85B76800ABEDC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33E7CEBB1D85B76800ABEDC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33E7CED01D85B76800ABEDC5 /* Wal_Smart.xcdatamodeld in Sources */,
+				33E1F8791D8EEAC10050900F /* ViewController2ViewController.m in Sources */,
+				33E7CECA1D85B76800ABEDC5 /* ViewController.m in Sources */,
+				33E7CEC71D85B76800ABEDC5 /* AppDelegate.m in Sources */,
+				33E7CEC41D85B76800ABEDC5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33E7CED71D85B76800ABEDC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33E7CEE01D85B76800ABEDC5 /* Wal_SmartTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33E7CEE21D85B76800ABEDC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33E7CEEB1D85B76800ABEDC5 /* Wal_SmartUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33E7CEDD1D85B76800ABEDC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33E7CEBE1D85B76800ABEDC5 /* Wal-Smart */;
+			targetProxy = 33E7CEDC1D85B76800ABEDC5 /* PBXContainerItemProxy */;
+		};
+		33E7CEE81D85B76800ABEDC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33E7CEBE1D85B76800ABEDC5 /* Wal-Smart */;
+			targetProxy = 33E7CEE71D85B76800ABEDC5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		33E7CECB1D85B76800ABEDC5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33E7CECC1D85B76800ABEDC5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		33E7CED31D85B76800ABEDC5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33E7CED41D85B76800ABEDC5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		33E7CEED1D85B76800ABEDC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		33E7CEEE1D85B76800ABEDC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33E7CEF01D85B76800ABEDC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Wal-Smart/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "comGjergjiTabaku.Wal-Smart";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		33E7CEF11D85B76800ABEDC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Wal-Smart/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "comGjergjiTabaku.Wal-Smart";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		33E7CEF31D85B76800ABEDC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Wal-SmartTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "comGjergjiTabaku.Wal-SmartTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wal-Smart.app/Wal-Smart";
+			};
+			name = Debug;
+		};
+		33E7CEF41D85B76800ABEDC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Wal-SmartTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "comGjergjiTabaku.Wal-SmartTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wal-Smart.app/Wal-Smart";
+			};
+			name = Release;
+		};
+		33E7CEF61D85B76800ABEDC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Wal-SmartUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "comGjergjiTabaku.Wal-SmartUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Wal-Smart";
+			};
+			name = Debug;
+		};
+		33E7CEF71D85B76800ABEDC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Wal-SmartUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "comGjergjiTabaku.Wal-SmartUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Wal-Smart";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33E7CEBA1D85B76800ABEDC5 /* Build configuration list for PBXProject "Wal-Smart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33E7CEED1D85B76800ABEDC5 /* Debug */,
+				33E7CEEE1D85B76800ABEDC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33E7CEEF1D85B76800ABEDC5 /* Build configuration list for PBXNativeTarget "Wal-Smart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33E7CEF01D85B76800ABEDC5 /* Debug */,
+				33E7CEF11D85B76800ABEDC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33E7CEF21D85B76800ABEDC5 /* Build configuration list for PBXNativeTarget "Wal-SmartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33E7CEF31D85B76800ABEDC5 /* Debug */,
+				33E7CEF41D85B76800ABEDC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33E7CEF51D85B76800ABEDC5 /* Build configuration list for PBXNativeTarget "Wal-SmartUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33E7CEF61D85B76800ABEDC5 /* Debug */,
+				33E7CEF71D85B76800ABEDC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		33E7CECE1D85B76800ABEDC5 /* Wal_Smart.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				33E7CECF1D85B76800ABEDC5 /* Wal_Smart.xcdatamodel */,
+			);
+			currentVersion = 33E7CECF1D85B76800ABEDC5 /* Wal_Smart.xcdatamodel */;
+			path = Wal_Smart.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 33E7CEB71D85B76800ABEDC5 /* Project object */;
+}
